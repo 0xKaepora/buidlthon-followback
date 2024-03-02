@@ -99,7 +99,7 @@ export default function Home() {
           content="https://buidlthon-followback.vercel.app/default.jpg"
         />
         <meta property="og:image" content="/default.jpg" />
-        <meta name="fc:frame:button:1" content="Reveal my connected address" />
+        <meta name="fc:frame:button:1" content="Enter 'Follow Back' Game" />
         <meta
           name="fc:frame:post_url"
           content="https://buidlthon-followback.vercel.app/api/"
