@@ -5,7 +5,7 @@ import sharp from "sharp";
 import path from "path";
 
 export async function generateErrorImage(heading, subheading) {
-  const imageUrl = "https://degen-frame.vercel.app/confused.png";
+  const imageUrl = "https://buidlthon-followback.vercel.app/confused.png";
 
   const svg = await satori(
     `<svg width="1910" height="1000" xmlns="http://www.w3.org/2000/svg">
@@ -88,15 +88,15 @@ export async function generateImage(walletAddress) {
   let subMessage;
 
   if (gainLossUsd > 0) {
-    imageUrl = "https://degen-frame.vercel.app/happy.png";
+    imageUrl = "https://buidlthon-followback.vercel.app/happy.png";
     message = `${formattedGainLossUsd}`;
     subMessage = `${Math.round(gainLossPercentage)}%`;
   } else if (gainLossUsd < 0) {
-    imageUrl = "https://degen-frame.vercel.app/sad.png";
+    imageUrl = "https://buidlthon-followback.vercel.app/sad.png";
     message = `${formattedGainLossUsd}`;
     subMessage = `${Math.round(gainLossPercentage)}%`;
   } else {
-    imageUrl = "https://degen-frame.vercel.app/cry.png";
+    imageUrl = "https://buidlthon-followback.vercel.app/cry.png";
     message = "NO DEGEN?!";
     subMessage = "click below to buy some";
   }
@@ -186,12 +186,12 @@ export default async function handler(req, res) {
         <html>
           <head>
             <meta name="fc:frame" content="vNext" />
-            <meta name="fc:frame:image" content="https://degen-frame.vercel.app/api/og/${connectedAddress}" />
+            <meta name="fc:frame:image" content="https://buidlthon-followback.vercel.app/api/og/${connectedAddress}" />
             <meta name="fc:frame:button:1" content="buy MOAR $degen 🎩" />
             <meta name="fc:frame:button:1:action" content="post_redirect" />
             <meta
             name="fc:frame:post_url"
-              content="https://degen-frame.vercel.app/api/uniswap/${tokenAddress}"
+              content="https://buidlthon-followback.vercel.app/api/uniswap/${tokenAddress}"
             />
           </head>
         </html>

@@ -96,13 +96,13 @@ export default function Home() {
         <meta name="fc:frame" content="vNext" />
         <meta
           name="fc:frame:image"
-          content="https://degen-frame.vercel.app/default.png"
+          content="https://buidlthon-followback.vercel.app/default.jpg"
         />
-        <meta property="og:image" content="/default.png" />
-        <meta name="fc:frame:button:1" content="Reveal my degeneracy 🎩" />
+        <meta property="og:image" content="/default.jpg" />
+        <meta name="fc:frame:button:1" content="Reveal my connected address" />
         <meta
           name="fc:frame:post_url"
-          content="https://degen-frame.vercel.app/api/"
+          content="https://buidlthon-followback.vercel.app/api/"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
